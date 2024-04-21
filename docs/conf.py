@@ -17,9 +17,8 @@ release = "1.0"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
 extensions = [
-    "sphinx.ext.autodoc",  # ソースコード読み込み用
+    "sphinx.ext.autodoc",
     "numpydoc",
 ]
 templates_path = ["_templates"]
